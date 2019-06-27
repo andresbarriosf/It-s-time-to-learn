@@ -46,6 +46,6 @@ In order to implement our main analysis we combine many of these files. Since so
 - school_use_of_time.dta: to replicate table with schools use of time after adopting FSD.
 - BASE_USUARIO_corregida: to replicate tables about additional support at home (https://www.ine.cl/estadisticas/menu-sociales/enut)
 
-### Datasets can be downloaded from https://andresbarriosf.github.io
+### These datasets can be downloaded from https://andresbarriosf.github.io
 
 (C) All right reserved to Andrés Barrios-Fernández and Giulia Bovini.
