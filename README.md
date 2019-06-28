@@ -2,16 +2,17 @@
 **Andrés Barrios-Fernández and Giulia Bovini**
 - This code allows to replicate the latest version of the paper (June, 2019). 
 - The first version of the paper was published on March, 2017 (https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2932359). 
-- There is also an older version of the paper published as a CEP Discussion Paper (http://cep.lse.ac.uk/pubs/download/dp1521.pdf)
+- There is also an older version of the paper from December, 2017 published as a CEP Discussion Paper (http://cep.lse.ac.uk/pubs/download/dp1521.pdf)
 - The current version corresponds to a revised version of the previous ones. 
 
 This repository contains all the files required to replicate the results of **"It's Time to learn: School institutions and Returns to instruction time"**.  
 
 ## CODE 
 
-All the do-files can be executed from the "master_file.do" and each one of them contains detailed explanations. 
+All the do-files to replicate the results in the paper can be executed using the "master_file.do". Each do-file contains additional explanations. 
+To facilitate going through them, we saved the do-files in three different folders: 
 1.  **"Descriptive Statistics and Tables"**: this folder contains the code used to create the summary statistics table and other descriptive statistics and figures that we present in the paper. 
-2.  **"Main Analysis"**: this  folder contains the do-files needed to replicate the mean and heterogeneous effects analyses. 
+2.  **"Main Analysis"**: this  folder contains the do-files needed to replicate the mean and heterogeneous effects analyses. It also contains the code to replicate the robustness checks.
 3.  **"Event Studies"**: this folder contains the do-files that allow to replicate the event studies. 
 
 
@@ -20,7 +21,7 @@ The raw data is subject to some restrictions that prevent us from making it  pub
 
 1.  **Ministry of Education**: some datasets, including the students directory, the school directory, the teachers census and the date of adoption of the FSD in each school-grade can be found at the Ministry of Education website: http://datosabiertos.mineduc.cl/. 
 
-2. **Education Quality Agency**: the datasets containing individual test scores, as well as the ones containing the answers to parents and teachers surveys applied at the same time as the SIMCE are managed by the Education Quality Agency. In order to gain access to this data it is necessary to present a research  proposal completing the following form:
+2. **Education Quality Agency**: the datasets containing individual test scores (SIMCE), as well as the ones containing the answers to surveys applied to parents and teachers at the same time as the SIMCE are managed by the Education Quality Agency. In order to gain access to this data it is necessary to present a research  proposal completing the following form:
 https://s3.amazonaws.com/archivos.agenciaeducacion.cl/documentos-web/Formulario_de_Solicitud_Bases_de_Datos.pdf
 This data cannot be shared with third parties.
 
@@ -34,7 +35,7 @@ This data cannot be shared with third parties.
 - PISA datasets can be download from the following link: https://www.oecd.org/pisa/data/
 
 ## REPLICATION
-In order to implement our main analysis we combine many of these files. Since some of them cannot be made public, to facilitate the replication of our results we created a set of datasets in which we use a fake identifier of schools and individuals and keep variables to a minimum. This is necessary in order to satisfy the data protection policies of the public agencies that gave us access to the data. The school and individual identifiers are unique to each dataset; therefore, they cannot be used to combine them.
+In order to implement our main analysis we combine many of these files. Since some of them cannot be made public, to facilitate the replication of our results we created a set of datasets in which we use a fake identifier of schools and individuals and keep variables to a minimum. This is necessary in order to satisfy the data protection policies of public agencies that gave us access to the data. The school and individual identifiers are unique to each dataset; therefore, they cannot be used to merge them. 
 
 - fsd_final_dataset_for_analysis_replication.dta: to replicate main effects, heterogeneous effects and robustness checks analysis.
 - event_study_xxxx.dta: to replicate event studies.
