@@ -1,7 +1,7 @@
 /*******************************************************************************
 
-							MASTER FILE FOR REPLICATION
-								    25.06.2019
+						MASTER FILE FOR REPLICATION
+								25.06.2019
 							
 *******************************************************************************/
 clear all
@@ -14,7 +14,7 @@ cap log close
 *** These paths are used in the replication files. It is important to define them
 *** before running the code. 
 ***
-*** Data for replication can be download from https://andresbarriosf.github.io
+*** Data for replication can be downloaded from https://andresbarriosf.github.io
 ***
 ********************************************************************************
 
@@ -61,41 +61,47 @@ global graphs_es_subjects  "/Users/andresbarriosfernandez/Dropbox/FSD REPLICATIO
 global log "/Users/andresbarriosfernandez/Dropbox/FSD REPLICATION"
 
 ********************************************************************************
-*** II. PREPROCESSIN RAW DATA  *************************************************
+*** II. PREPROCESSING RAW DATA  *************************************************
 ********************************************************************************
 
-*** The raw data is subject to some restrictions that prevent us from making it 
-*** publicly available.
+*** The raw data used in this project is subject to some restrictions that prevent 
+*** us from making it publicly available.
 
-*** There are some datasets that are public and can be found on the Ministry of 
-*** Education website: http://datosabiertos.mineduc.cl/. 
+*** Some datasets however are public and can be found on the Ministry of Education
+*** website: http://datosabiertos.mineduc.cl/. 
 
-*** The datasets containing individual test scores, as well as the ones containing 
-*** the answers to parental and teachers surveys applied at the same time as the 
-*** SIMCE are managed by the Education Quality Agency. In order to gain access to
-*** this data it is necessary to present a research  proposal completing the 
-*** following form:
+*** The datasets containing individual test scores (SIMCE), as well as the ones 
+*** containing the answers to surveys applied to parents and teachers at the same 
+*** time as the SIMCE are managed by the Education Quality Agency. In order to gain 
+*** access to this data it is necessary to present a research  proposal completing 
+*** the following form:
 *** https://s3.amazonaws.com/archivos.agenciaeducacion.cl/documentos-web/Formulario_de_Solicitud_Bases_de_Datos.pdf
 *** This data cannot be shared with third parties.
 
 *** We also use other datasets:
 *** - Longitudinal Teachers Survey (2005): to gain access to it, one has to contact
 ***   the Research Center of the Ministry of Education (estadisticas@mineduc.cl). 
-***   They have a form that researchers need to fill before submission. 
+***   They have a form that researchers need to fill before getting access to the data. 
 
 *** - DESUC Survey use of Time: we gain access to this dataset directly from the 
-***   former director of the DESUC. This institution does not exist anylonger, but 
-***   we made this dataset available in our repository.
+***   former director of the DESUC. This institution does not exist anymore, but 
+***   we made this dataset available.
 
 *** - Use of Time Survey (2015): the original dataset can be download from the following
 ***   link: https://www.ine.cl/estadisticas/menu-sociales/enut
 
-*** - PISA datasets can be download from the following dataset:
+*** - PISA datasets can be download from the following link:
 ***   https://www.oecd.org/pisa/data/
 
-*** In order to implement our main analysis we combine many of these files. Since 
-*** some of them cannot be made public, to facilitate the replication of our results 
-*** we created a set of datasets in which we hide the identity of schools and individuals:
+*** In order to implement the analysis presented in the paper we combine many of 
+*** these files. Since some of them cannot be made public, to facilitate the 
+*** replication of our results we created a set of datasets in which we hide the 
+*** identity of schools and individuals and kept only key variables to satisfy 
+*** the information protection policies of the agencies that provided us with the 
+*** data. 
+
+*** The individual and school identifiers used in these files are unique to each 
+*** one of them. Therefore, these variables cannot be used to merge them. 
 
 *** - fsd_final_dataset_for_analysis_replication.dta: to replicate main effects, 
 ***   heterogeneous effects and robustness checks analysis.
@@ -110,7 +116,7 @@ global log "/Users/andresbarriosfernandez/Dropbox/FSD REPLICATION"
 *** - BASE_USUARIO_corregida: to replicate tables about additional support at home 
 ***   (https://www.ine.cl/estadisticas/menu-sociales/enut)
 
-*** Preprocessing code is available upon request. 
+*** The preprocessing code used to clean the raw data is available upon request. 
 
 ********************************************************************************
 *** III. DESCRIPTIVE STATISTICS ************************************************
