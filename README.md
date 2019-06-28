@@ -7,15 +7,14 @@
 
 ## CODE 
 
-All the do-files to replicate the results in the paper can be executed using the "master_file.do". Each do-file contains additional explanations. 
-To facilitate going through them, we saved the do-files in three different folders: 
+All the do-files to replicate the results in the paper can be executed from the "master_file.do". We organized the individual do-files in three independent folders:
 1.  **"Descriptive Statistics and Tables"**: this folder contains the code used to create the summary statistics table and other descriptive statistics and figures that we present in the paper. 
 2.  **"Main Analysis"**: this  folder contains the do-files needed to replicate the mean and heterogeneous effects analyses. It also contains the code to replicate the robustness checks.
 3.  **"Event Studies"**: this folder contains the do-files that allow to replicate the event studies. 
 
 
 ## DATASETS 
-The raw data is subject to some restrictions that prevent us from making it  publicly available.
+The raw data that we use in this project is subject to some restrictions that prevent us from making it  public.
 
 1.  **Ministry of Education**: some datasets, including the students directory, the school directory, the teachers census and the date of adoption of the FSD in each school-grade can be found at the Ministry of Education website: http://datosabiertos.mineduc.cl/. 
 
