@@ -1,11 +1,9 @@
 # It's time to learn: School Institutions and Returns to Instruction Time
 **Andrés Barrios-Fernández and Giulia Bovini**
-- This code allows to replicate the latest version of the paper (June, 2019). 
+- This repository contains all the files required to replicate the results of **"It's Time to learn: School institutions and Returns to instruction time"** (June, 2019). 
 - The first version of the paper was published on March, 2017 (https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2932359). 
-- There is also an older version of the paper from December, 2017 published as a CEP Discussion Paper (http://cep.lse.ac.uk/pubs/download/dp1521.pdf)
-- The current version corresponds to a revised version of the previous ones. 
-
-This repository contains all the files required to replicate the results of **"It's Time to learn: School institutions and Returns to instruction time"**.  
+- There is also an older version of the paper from December 2017 published as a CEP Discussion Paper (http://cep.lse.ac.uk/pubs/download/dp1521.pdf)
+- The current version corresponds to a revised version of the previous ones.   
 
 ## CODE 
 
