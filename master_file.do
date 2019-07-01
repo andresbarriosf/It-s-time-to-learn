@@ -19,46 +19,48 @@ cap log close
 ********************************************************************************
 
 *** 1. DATASETS AND CODE 
-global d  "/Users/andresbarriosfernandez/Google Drive/Data FSD Replication" 
-global code "/Users/andresbarriosfernandez/Documents/GitHub/FSD"
+*** Paths to the data and to the code
+global d  "" 
+global code ""
 
 *** 2. DIRECTORIES FOR STORING RESULTS:
 
-***** 2.1 General Tables:  
-global tex "/Users/andresbarriosfernandez/Dropbox/FSD REPLICATION" 
+***** 2.1 Path to .tex files saved by the program:  
+global tex "" 
 
-***** 2.2 Tables of Main effects
-global tex_linear "/Users/andresbarriosfernandez/Dropbox/FSD REPLICATION" 
-global tex_cum 	  "/Users/andresbarriosfernandez/Dropbox/FSD REPLICATION" 
+***** 2.2 Paths to save tables of main effects
+global tex_linear "" 
+global tex_cum 	  "" 
 
-***** 2.3 Tables of Heterogeneity by School Type
-global tex_school   "/Users/andresbarriosfernandez/Dropbox/FSD REPLICATION"
-global tex_multiple "/Users/andresbarriosfernandez/Dropbox/FSD REPLICATION"
+***** 2.3 Paths to sabe tables of heterogeneity by school type
+global tex_school   ""
+global tex_multiple ""
 
-***** 2.4 Tables of Heterogeneity by Resources at Home:
-global tex_edu   "/Users/andresbarriosfernandez/Dropbox/FSD REPLICATION"
-global tex_books "/Users/andresbarriosfernandez/Dropbox/FSD REPLICATION"  
-global tex_ITC   "/Users/andresbarriosfernandez/Dropbox/FSD REPLICATION"  
+***** 2.4 Paths to sabe tables of heterogeneity by resources at home:
+global tex_edu   ""
+global tex_books ""
+global tex_ITC   ""
 
-***** 2.5 Tables of Robustness checks
-global tex_infra "/Users/andresbarriosfernandez/Dropbox/FSD REPLICATION"  
-global tex_sep   "/Users/andresbarriosfernandez/Dropbox/FSD REPLICATION" 
+***** 2.5 Paths to save tables of robustness checks
+global tex_infra ""
+global tex_sep   ""
 
-***** 2.5 Summary statistics and event studies
-global tex_stat "/Users/andresbarriosfernandez/Dropbox/FSD REPLICATION"
-global tex_pisa "/Users/andresbarriosfernandez/Dropbox/FSD REPLICATION"
-global tex_es   "/Users/andresbarriosfernandez/Dropbox/FSD REPLICATION"
+***** 2.5 Paths to save summary statistics and event studies
+global tex_stat ""
+global tex_pisa ""
+global tex_es   ""
   
-***** 2.6 Charts  
-global graphs              "/Users/andresbarriosfernandez/Dropbox/FSD REPLICATION"
-global graphs_es_simce     "/Users/andresbarriosfernandez/Dropbox/FSD REPLICATION"
-global graphs_es_teachers  "/Users/andresbarriosfernandez/Dropbox/FSD REPLICATION"
-global graphs_es_transfers "/Users/andresbarriosfernandez/Dropbox/FSD REPLICATION"
-global graphs_es_csize     "/Users/andresbarriosfernandez/Dropbox/FSD REPLICATION"
-global graphs_es_subjects  "/Users/andresbarriosfernandez/Dropbox/FSD REPLICATION"
+***** 2.6 Paths to save Charts  
+global graphs              ""
+global graphs_es_simce     ""
+global graphs_es_teachers  ""
+global graphs_es_transfers ""
+global graphs_es_csize     ""
+global graphs_es_subjects  ""
 
 *** 3. LOG FILES
-global log "/Users/andresbarriosfernandez/Dropbox/FSD REPLICATION"
+*** Path to save log files:
+global log ""
 
 ********************************************************************************
 *** II. PREPROCESSING RAW DATA  *************************************************
